@@ -27,7 +27,6 @@ public class MostOverlappedInterval {
 			public int compare(Interval o1, Interval o2) {
 				return o1.end-o2.end;
 			}
-			
 		});
 		Arrays.sort(intervals);
 		int i=0;

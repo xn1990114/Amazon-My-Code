@@ -24,6 +24,12 @@ public class MostOverlappedIntervalTester {
 						tester.new Interval(3,4),
 						tester.new Interval(3,4)};
 		System.out.println(tester.findMostOverlappedInterval(input2));
+		Interval[] input3={tester.new Interval(0,1),
+				tester.new Interval(1,2),
+				tester.new Interval(2,3),
+				tester.new Interval(3,4),
+				};
+System.out.println(tester.findMostOverlappedInterval(input3));
 	}
 
 }
